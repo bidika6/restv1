@@ -1,14 +1,13 @@
-import './App.css';
+import './App.sass';
 import { BrowserRouter as Router } from "react-router-dom";
-import {GlobalStyle} from "./globalStyles";
-import Hero from "./components/Hero";
+import Hero from './components/Hero';
+import Nav from './components/Navbar';
 
 function App() {
   return (
       <Router>
-          <GlobalStyle />
-
-          <Hero />
+        <Nav />
+        <Hero></Hero>
       </Router>
 
   );

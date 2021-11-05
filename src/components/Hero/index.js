@@ -1,16 +1,20 @@
 import React from "react";
-import Navbar from "../Navbar";
-import { HeroContainer } from './HeroElements';
-
-
 
 
 const Hero = () => {
     return (
-
-<HeroContainer>
-    <Navbar />
-</HeroContainer>
+        <section class="hero is-danger is-fullheight">
+  <div class="hero-body">
+    <div class="">
+      <p class="title">
+        Restaraunt hero
+      </p>
+      <p class="subtitle">
+        Fullheight subtitle
+      </p>
+    </div>
+  </div>
+</section>
     )
 };
 
