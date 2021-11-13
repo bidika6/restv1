@@ -57,3 +57,10 @@ font-size: 2rem;
 
 
 `
+
+
+export const MenuIcon = styled.div`
+    margin: 20px;
+  display: flex;
+  font-size: 30px;
+    `

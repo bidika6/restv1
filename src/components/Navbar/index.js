@@ -1,17 +1,19 @@
 import React from "react";
-import {Bars, Nav, NavIcon, NavLink} from "./NavbarElements";
+import {Bars, MenuIcon, Nav, NavIcon, NavLink} from "./NavbarElements";
 import { GiHamburgerMenu } from "react-icons/gi";
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
 
     return (
 
 <>
     <Nav>
-        <NavLink to = '/'>Natraj Indian Cuisine</NavLink>
-        <NavIcon>
-            <p>Menu</p>
+        <NavLink to = '/'>Taj Palace Indian Cuisine</NavLink>
+        <NavIcon onClick = {toggle}>
+<MenuIcon>
             <GiHamburgerMenu />
+</MenuIcon>
+
 
         </NavIcon>
     </Nav>
