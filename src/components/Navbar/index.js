@@ -1,5 +1,5 @@
 import React from "react";
-import {Bars, MenuIcon, Nav, NavIcon, NavLink} from "./NavbarElements";
+import { MenuIcon, Nav, NavIcon, NavLink} from "./NavbarElements";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = ({toggle}) => {
