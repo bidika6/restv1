@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import {
 ProductsHeading,
     ProductDesc,
@@ -13,9 +13,13 @@ ProductsHeading,
 } from "./ProductsElements";
 
 const Products = ({heading, data}) => {
+
+
+
 return (
 <ProductsContainer>
-    <ProductsHeading>{heading}</ProductsHeading>
+
+    <ProductsHeading id = "Menu" >{heading}</ProductsHeading>
 
     {data.map((foodItem, index) => {
         return (
@@ -41,6 +45,8 @@ return (
 )
 
 };
+
+
 
 
 

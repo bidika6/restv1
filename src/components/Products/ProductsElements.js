@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 
 export const ProductsContainer = styled.div`
+  display: flex;
     width: 100vw;
   min-height : 100vh;
   padding: 5rem calc((100vw-1300px) / 2);
