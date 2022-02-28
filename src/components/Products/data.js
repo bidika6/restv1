@@ -24,8 +24,8 @@ export const productData = [
         alt: 'Biriyani',
         name: 'Chicken Biriyani',
         desc: 'Delicious Indian Chicken Biriyani Served fresh and hot',
-        value: 12.99,
-        price: '$12.99',
+        value: 14.99,
+        price: '$14.99',
         button: 'Add To Cart'
 
     },

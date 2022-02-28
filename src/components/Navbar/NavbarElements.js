@@ -17,7 +17,7 @@ justify-content: center;
 
 export const NavLink = styled(Link)`
 color: #fff;
-  font-size: 2rem;
+  font-size: 3.5rem;
   display: flex;
   align-items: center;
   text-decoration: none;

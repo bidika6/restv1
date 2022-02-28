@@ -20,7 +20,7 @@ const Sidebar = ({isOpen, toggle}) => {
                 <SidebarLink href ='#Menu'>Menu</SidebarLink>
                 <SidebarLink href ='#Featured'>Featured items</SidebarLink>
                 <SidebarLink to ='/'>Reviews</SidebarLink>
-                <SidebarLink to ='/'>Reservations</SidebarLink>
+                <SidebarLink href ='#reservations'>Reservations</SidebarLink>
             </SidebarMenu>
 <SideBtnWrap>
     <SidebarRoute to='/'>Order Now</SidebarRoute>

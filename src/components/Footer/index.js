@@ -1,4 +1,5 @@
 import React from 'react';
+import Form from '../ReservationForm/Form'
 import {
     FaFacebook,
     FaInstagram,
@@ -15,10 +16,12 @@ import {
     SocialIcons,
     SocialIconLink
 } from './FooterElements';
-
+//form component is here temporarily
 const Footer = () => {
     return (
-        <FooterContainer>
+
+        <FooterContainer id = 'reservations' style={{ color: "white" }}>
+            <Form />
             <FooterWrap>
                 <SocialMedia>
                     <SocialMediaWrap>

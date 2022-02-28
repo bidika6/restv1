@@ -8,7 +8,7 @@ const Navbar = ({toggle}) => {
 
 <>
     <Nav>
-        <NavLink to = '/'>Taj Palace Indian Cuisine</NavLink>
+        <NavLink to = '/'>Natraj Indian Cuisine</NavLink>
         <NavIcon onClick = {toggle}>
 <MenuIcon>
             <GiHamburgerMenu />

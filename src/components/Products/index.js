@@ -12,6 +12,8 @@ ProductsHeading,
     ProductButton
 } from "./ProductsElements";
 
+import Form from "../ReservationForm/Form.js";
+
 const Products = ({heading, data}) => {
 
 
@@ -32,13 +34,13 @@ return (
                     <ProductButton>{foodItem.button}</ProductButton>
                 </ProductInfo>
             </ProductCard>
+
+
         )
     })}
     <ProductWrapper>
 
     </ProductWrapper>
-
-
 
 </ProductsContainer>
 
